@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgrnd"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnOpencam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OPEN CAMERA"
+            />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            />
+        <ImageView
+            android:id="@+id/imageview"
+            android:background="#50ffffff"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            />
+        <Button
+            android:id="@+id/lstn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#50000000"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+                android:text="TOUCH TO SPEAK"
+            />
+    </LinearLayout>
+
+</FrameLayout>
